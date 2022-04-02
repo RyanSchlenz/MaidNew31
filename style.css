@@ -28,9 +28,6 @@ body {
     color: #444;
     font-family: "Inter", sans-serif;
     font-family: "Poppins", sans-serif;
-    border-bottom: 10px solid #0c8599;
-    /* margin-left: 15px;
-    margin-right: 15px; */
 }
 
 .container {
@@ -182,17 +179,15 @@ img {
 
 .image-1 {
     object-fit: fill;
-    margin-top: 300px;
     width: 100%;
-    height: auto;
 }
 
 .card-services {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(400px, 3fr));
     column-gap: 60px;
-    margin-bottom: 150px;
-    padding-right: 20px;
+    margin-bottom: 86px;
+    padding-right: 50px;
     margin-top: 20px;
 }
 
@@ -336,7 +331,54 @@ footer {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+    .service-section {
+        width: 100%;
+    }
+    .card {
+        margin-bottom: -30px;
+    }
+    .local {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .card {
+        margin-bottom: 86px;
+    }
+    .schedule {
+        margin-top: 0px;
+    }
+    .card-services {
+        margin-bottom: 30px;
+    }
+    .spray-bottle {
+        display: none;
+    }
+    .header-text-box {
+        width: 400px;
+    }
+}
+
+
+/*NOT RESPONSIVE FROM 500-800 PIXELS */
+
+
+/* @media only screen and (min-width: 500px) and (max-width: 800) {
+    .container {
+        width: 100%;
+    }
+    .service-section {
+        width: 100%;
+    }
+    .card {
+        width: 100%;
+    }
+    /* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 800px) and (max-width: 992px) {
     .container {
         width: 100%;
     }
@@ -346,43 +388,13 @@ footer {
 }
 
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-
-@media only screen and (min-width: 100px) {
-    .container {
-        width: 100%;
-    }
-    .card-services {
-        width: 100%;
-    }
-}
-
-
-/* Medium devices (landscape tablets, 768px and up) */
-
-@media only screen and (min-width: 768px) {
-    .container {
-        width: 100%;
-    }
-    .card-services {
-        width: 100%;
-    }
-}
-
-
-/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
 
 @media only screen and (min-width: 992px) {
     .container {
         width: 100%;
     }
-}
-
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-
-@media only screen and (min-width: 1200px) {
-    .container {
+    .service-section {
         width: 100%;
     }
 }
