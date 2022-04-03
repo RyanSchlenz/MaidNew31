@@ -338,27 +338,33 @@ footer {
     .service-section {
         width: 100%;
     }
-    .card {
-        margin-bottom: -30px;
-    }
+ 
     .local {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .card {
-        margin-bottom: 86px;
-    }
+
     .schedule {
         margin-top: 0px;
     }
     .card-services {
         margin-bottom: 30px;
+        width: 100%;
     }
+    
+    .card {
+        width: 80%;
+    }
+    
+    .contact {
+        width: 100%;
+    }
+    
     .spray-bottle {
         display: none;
     }
     .header-text-box {
-        width: 400px;
+        width: 300%;
     }
 }
 
